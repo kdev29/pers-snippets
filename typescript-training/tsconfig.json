@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "plugins": [
+        {
+          "name": "typescript-tslint-plugin",
+          "alwaysShowRuleFailuresAsWarnings": false,
+          "ignoreDefinitionFiles": true,
+          "configFile": "../tslint.json",
+          "suppressWhileTypeErrorsPresent": false,
+          "mockTypeScriptVersion": false
+        }
+      ]
+    }
+  }
