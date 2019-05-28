@@ -1,0 +1,42 @@
+
+
+.dark_blue {
+    background-color: aquamarine;
+}
+
+.light_blue {
+    background-color: chocolate;
+}
+
+.green {
+    background-color: bisque; 
+}
+
+.box {
+    width: 100%;
+    min-height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 450px) {
+    .dark_blue {
+        width: 25%;        
+    }
+    .light_blue {
+        width: 75%;        
+    }
+
+}
+@media screen and (min-width: 550px) {
+    .dark_blue, .green {
+        width: 25%;        
+    }
+    .light_blue {
+        width: 50%;        
+    }
+}

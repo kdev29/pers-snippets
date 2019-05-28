@@ -1,0 +1,63 @@
+
+.dark_blue {
+    background-color: darkblue;
+}
+
+.light_blue {
+    background-color: lightblue;
+}
+
+.green {
+    background-color: green; 
+}
+
+.red {
+    background-color: red; 
+}
+
+.orange {
+    background-color: orange; 
+}
+
+.box {
+    width: 100%;
+    min-height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .dark_blue {
+        width: 50%;        
+    }
+    #container2 {
+        width: 50%;        
+    }
+
+}
+@media screen and (min-width: 600px) {
+    .dark_blue {
+        width: 25%;        
+        order: 1;
+    }
+
+    #container2 {
+        width: 50%;
+    }
+     .red {
+        width: 25%;        
+        order: -1;
+    }
+}
+
+/* @media screen and (min-width: 700px) 
+{
+    .container {
+        width: 700px;
+
+    }
+} */
